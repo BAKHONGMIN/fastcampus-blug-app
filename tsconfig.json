@@ -20,7 +20,8 @@
   "include": ["**/*.ts", "**/*.tsx", "src"],
   "paths": {
     "pages/*": ["pages/*"],
-    "components/*": ["components/*"]
+    "components/*": ["components/*"],
+    "firebaseApp/*": ["firebaseApp/*"]
   },
   "exclude": ["node_modules"]
 }

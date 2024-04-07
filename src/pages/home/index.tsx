@@ -10,8 +10,8 @@ export default function Home() {
     <div>
       <Header />
       <Carousel />
-      <Profile />
-      <PostList hasNavigation={false} />
+      {/* <Profile /> */}
+      <PostList hasNavigation={true} />
       <Footer />
     </div>
   );
